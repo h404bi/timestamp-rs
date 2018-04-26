@@ -1,0 +1,12 @@
+[package]
+name = "timestamp-rs"
+version = "0.1.0"
+authors = ["h404bi <h404bi@gmail.com>"]
+description = "Grab current timestamp"
+
+[dependencies]
+time = "0.1.39"
+
+[[bin]]
+name = "timestamp"
+path = "src/main.rs"
